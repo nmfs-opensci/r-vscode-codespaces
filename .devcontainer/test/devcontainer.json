@@ -1,0 +1,43 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/rocker-org/devcontainer-templates/tree/main/src/r-ver
+{
+	"name": "R (rocker/r-ver base)",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "ghcr.io/rocker-org/devcontainer/r-ver:4.2"//, //commma needed if other sections are used.
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {
+		// if we want to install r packages using pak
+		// more info: https://github.com/rocker-org/devcontainer-features/blob/main/src/r-packages/README.md
+	// 	  "ghcr.io/rocker-org/devcontainer-features/r-packages:1": {
+    //       "packages": "cli,rlang",
+    //        "installSystemRequirements": true
+    //     }
+	// // if we want quarto cli
+	     // more info: https://github.com/rocker-org/devcontainer-features/blob/main/src/quarto-cli/README.md
+	//    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {}
+	// },
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "R -q -e 'renv::install()'",
+
+	// Configure tool-specific properties.
+	// "customizations": {
+	//   "vscode": {
+	// 		// Set *default* container specific settings.json values on container create.
+	// 		"settings": { 
+    //    		},
+	// 		// Add the IDs of extensions you want installed when the container is created.
+	// 		"extensions": [
+		        // if we want liveshare.
+	// 			"ms-vsliveshare.vsliveshare"
+	// 		]
+	//     }
+	// },
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
