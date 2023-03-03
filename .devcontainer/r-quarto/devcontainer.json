@@ -14,7 +14,7 @@
 	  // quarto cli
 	  // more info: https://github.com/rocker-org/devcontainer-features/blob/main/src/quarto-cli/README.md
 	  "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {}
-	}, // end features
+	}//, // need comman if add more after features
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
