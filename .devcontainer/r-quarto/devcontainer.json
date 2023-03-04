@@ -13,7 +13,9 @@
         },
 	  // quarto cli
 	  // more info: https://github.com/rocker-org/devcontainer-features/blob/main/src/quarto-cli/README.md
-	  "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {}
+	  "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+		  "installTinyTex": true
+	  }
 	},
 	"customizations": {
 		"vscode": {
