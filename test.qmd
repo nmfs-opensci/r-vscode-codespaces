@@ -1,6 +1,6 @@
 ---
 title: "Untitled"
-format: html
+format: pdf
 ---
 
 ## Quarto
