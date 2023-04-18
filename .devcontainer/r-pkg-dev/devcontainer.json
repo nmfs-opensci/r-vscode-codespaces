@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/rocker-org/devcontainer-templates/tree/main/src/r-ver
 {
-	"name": "R (rocker/r-ver base)",
+	"name": "R (rocker/r-ver base) for R pkg dev",
 	"image": "ghcr.io/rocker-org/devcontainer/r-ver:4.2",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
@@ -27,8 +27,11 @@
 			"settings": { 
      		},
 			// Add the IDs of extensions you want installed when the container is created.
+			// HTML preview needed to view in development documentation, vignettes
+			//rendered to HTML
 			"extensions": [
-				"ms-vsliveshare.vsliveshare"
+				"ms-vsliveshare.vsliveshare",
+				"george-alisson.html-preview-vscode"
 			]
 	    } // vscode
 	} // customizations

@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/rocker-org/devcontainer-templates/tree/main/src/r-ver
 {
-	"name": "R (rocker/r-ver base)",
+	"name": "R (rocker/r-ver base) with Quarto",
 	"image": "ghcr.io/rocker-org/devcontainer/r-ver:4.2",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
