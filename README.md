@@ -18,11 +18,11 @@ Reach out to [@eeholmes](https://github.com/eeholmes) if you have questions.
 
 These can be used to inspire your own Codespace files.
 
-- [the FIMS codespace](https://github.com/NOAA-FIMS/FIMS/blob/main/.devcontainer/devcontainer.json). This is a codespace for R package development, including dependencies for building C++ code.
-- [the FIMS case studies codespace](https://github.com/NOAA-FIMS/case-studies/blob/main/.devcontainer/devcontainer.json). This is a codespaces for using R packages and building a Quarto website.
-- [the ghactions4r codespace](https://github.com/nmfs-fish-tools/ghactions4r/blob/main/.devcontainer/devcontainer.json). This is a codespace for R package development, with few package dependencies and no special tooling.
+- [The FIMS codespace](https://github.com/NOAA-FIMS/FIMS/blob/main/.devcontainer/devcontainer.json). This is a codespace for R package development, including dependencies for building C++ code.
+- [The FIMS case studies codespace](https://github.com/NOAA-FIMS/case-studies/blob/main/.devcontainer/devcontainer.json). This is a codespaces for using R packages and building a Quarto website.
+- [The ghactions4r codespace](https://github.com/nmfs-fish-tools/ghactions4r/blob/main/.devcontainer/devcontainer.json). This is a codespace for R package development, with few package dependencies and no special tooling.
 
-## How to use this repository withCcodespaces
+## How to use this repository with Codespaces
 
 Two ways:
 
